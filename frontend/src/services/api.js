@@ -3,7 +3,7 @@ import axios from "axios";
 // API INSTANCE
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://lexora-library-management-system.onrender.com/api",
 });
 
 // ADD TOKEN AUTOMATICALLY
